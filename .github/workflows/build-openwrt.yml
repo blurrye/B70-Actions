@@ -9,7 +9,9 @@
 #
 
 # 此次编译代码是master分支
-name: b70 lede(master) v20210226
+# 安装包配置基本 copy Redmi路由器AC2100，只增加了 CONFIG_PACKAGE_zerotier=y
+# https://github.com/esirplayground/AutoBuild-OpenWrt/blob/master/redmi_ac2100.config
+name: b70[redmi_ac2100.config] lede(master) v20210226
 
 on:
   repository_dispatch:
@@ -24,7 +26,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: hc5962.config
+  CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
