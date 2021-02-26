@@ -8,8 +8,8 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-# 此次编译代码是master分支
-name: b70 lede(master) v20210225
+# 此次编译代码不是master分支，而是20200416标签
+name: b70 lede(20200416) v20210226
 
 on:
   repository_dispatch:
@@ -22,7 +22,7 @@ on:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_BRANCH: 20200416
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: hc5962.config
   DIY_P1_SH: diy-part1.sh
