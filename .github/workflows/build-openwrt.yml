@@ -9,9 +9,9 @@
 #
 
 # 此次编译代码是master分支
-# 安装包配置基本 copy Redmi路由器AC2100，只增加了 CONFIG_PACKAGE_zerotier=y
+# 安装包配置基本 copy Redmi路由器AC2100，只增加了 zerotier
 # https://github.com/esirplayground/AutoBuild-OpenWrt/blob/master/redmi_ac2100.config
-name: b70[redmi_ac2100.config] lede(master) v20210226
+name: b70 lede(master) v20210227
 
 on:
   repository_dispatch:
