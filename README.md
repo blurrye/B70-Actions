@@ -8,6 +8,11 @@ Build OpenWrt using GitHub Actions
 
 [Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
+## --- 此次编译说明-ye ---
+- 此次编译代码是master分支
+- 安装包配置为二者叠加，hc5962 + Redmi路由器AC2100
+- [Redmi路由器AC2100 配置文件](https://github.com/esirplayground/AutoBuild-OpenWrt/blob/master/redmi_ac2100.config)
+
 ## Usage
 
 - Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
