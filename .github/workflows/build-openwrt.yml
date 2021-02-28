@@ -9,7 +9,7 @@
 #
 
 # 此次编译代码是master分支
-# 安装包配置为二者叠加，hc5962 + Redmi路由器AC2100
+# 安装包配置为二者叠加,编译后生成的文件复制过来，hc5962 + Redmi路由器AC2100
 # https://github.com/esirplayground/AutoBuild-OpenWrt/blob/master/redmi_ac2100.config
 name: b70 lede(master) v20210228
 
